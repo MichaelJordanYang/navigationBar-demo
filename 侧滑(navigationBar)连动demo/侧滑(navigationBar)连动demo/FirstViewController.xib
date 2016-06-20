@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController" customModule="侧滑_navigationBar_连动demo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nKT-8O-ZUN">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3a-qW-mX8">
+                            <rect key="frame" x="170.5" y="286.5" width="34" height="30"/>
+                            <state key="normal" title="push"/>
+                            <connections>
+                                <action selector="onPush:" destination="-1" eventType="touchUpInside" id="bFB-gg-JHd"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.66427180649999995" blue="0.65897710430000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="i3a-qW-mX8" firstAttribute="centerX" secondItem="nKT-8O-ZUN" secondAttribute="centerX" id="RXm-2d-33w"/>
+                        <constraint firstItem="i3a-qW-mX8" firstAttribute="centerY" secondItem="nKT-8O-ZUN" secondAttribute="centerY" id="oMn-do-9IH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nKT-8O-ZUN" secondAttribute="trailing" id="GHF-b3-ozy"/>
+                <constraint firstItem="nKT-8O-ZUN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JVd-bj-cWm"/>
+                <constraint firstItem="nKT-8O-ZUN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="hLE-7l-bZY"/>
+                <constraint firstAttribute="bottom" secondItem="nKT-8O-ZUN" secondAttribute="bottom" id="tFc-gp-Ofb"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>

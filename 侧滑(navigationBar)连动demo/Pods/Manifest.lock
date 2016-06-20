@@ -1,0 +1,13 @@
+PODS:
+  - SnapKit (0.21.0)
+  - SwipeBack (1.1.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - SwipeBack
+
+SPEC CHECKSUMS:
+  SnapKit: 2756fe24b706367af224c9c508d2f9166d03354c
+  SwipeBack: 45a42c333b7b9657b9f02cf19673339b3a006195
+
+COCOAPODS: 0.39.0

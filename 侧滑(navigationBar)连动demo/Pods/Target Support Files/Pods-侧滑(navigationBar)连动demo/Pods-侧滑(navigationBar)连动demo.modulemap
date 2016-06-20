@@ -1,0 +1,6 @@
+framework module Pods____navigationBar___demo {
+  umbrella header "Pods-侧滑(navigationBar)连动demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
