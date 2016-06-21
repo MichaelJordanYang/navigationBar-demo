@@ -6,8 +6,8 @@
   * pod 'SwipeBack'  ## 全能滑动手势返回
   * pod 'SnapKit'    ## AutoLayout
   
-  ![示例](http://ww2.sinaimg.cn/mw690/7e606be7jw1f525842r0oj20hs0vkta0.jpg)
-  ![示例](http://ww2.sinaimg.cn/mw690/7e606be7jw1f525845caij20hs0vkab9.jpg)
+  ![示例](http://ww1.sinaimg.cn/mw690/7e606be7jw1f52p3enku8g20900erq9w.gif)
+
 
   
 
